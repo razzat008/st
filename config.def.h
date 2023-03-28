@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono Nerd Font:style:medium:size=14:antialias=true:autohint=true";
-static char *font2[] = { "JetBrainsMono Nerd Font :pixelsize=15:antialias=true:autohint=true" };
-static int borderpx = 0;
+static char *font = "JetBrainsMono Nerd Font:style:medium:size=16:antialias=true:autohint=true";
+static char *font2[] = { "JetBrainsMono Nerd Font :pixelsize=11:antialias=true:autohint=true" };
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -94,7 +94,7 @@ const int boxdraw_braille = 1;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "st-256color";
+char *termname = "xterm-256color";
 
 /*
  * spaces per tab
